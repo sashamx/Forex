@@ -1,0 +1,145 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font: 12px/18px 'Roboto Condensed', sans-serif;
+    background: url('../images/bg.jpg') center no-repeat;
+    background-size: 100% 100%;
+}
+.top {
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 54px;
+    background: #056db4;
+    background: -moz-linear-gradient(45deg, #056db4 0%, #003159 100%);
+    background: -webkit-linear-gradient(45deg, #056db4 0%,#003159 100%);
+    background: linear-gradient(45deg, #056db4 0%,#003159 100%);
+    border-bottom: 2px #01223D solid;
+}
+.but_bars {
+    float: right;
+    padding: 10px 10px 0 0;
+    font-size: 32px;
+    color: #00A3E8;
+}
+.title_top {
+    padding: 18px 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bottom {
+    color: #fff;
+    height: 68px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #056db4;
+    background: -moz-linear-gradient(top, #056db4 0%, #003159 100%);
+    background: -webkit-linear-gradient(top, #056db4 0%,#003159 100%);
+    background: linear-gradient(to bottom, #056db4 0%,#003159 100%);
+    border-top: 2px #01223D solid;
+}
+.block_four {
+    float: left;
+    width: 25%;
+    height: 68px;
+}
+.icon_bot {
+    text-align: center;
+    padding: 20px 10px 0 10px;
+    font-size: 30px;
+}
+.bg_bot {
+    background: url("../images/line.png") repeat-y right;
+}
+
+.content {
+    padding: 64px 10px 0 10px;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.signal_block {
+    padding: 10px;
+    border-radius:5px;
+    background: url("../images/signal_bg.png");
+    border: 1px #022D4F solid;
+    margin-bottom: 10px;
+}
+.new_signal_block {
+    background: #0470B0;
+    border: 1px #05D1FF solid;
+}
+.new_signal_block .signal_price {background: #034D87;}
+.signal_but {
+    float: left;
+    padding: 3px 5px;
+    color: #fff;
+    background: #DE2626;
+    font-weight: bold;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+.signal_but span {
+    padding: 0 0 0 3px;
+    text-transform: uppercase;
+}
+.buy_but {background: #219653;}
+.sell_but {background: #DE2626}
+.signal_val {
+    float: left;
+    padding:3px 0;
+    font-weight: bold;
+    color: #fff;
+}
+.signal_new_but, .signal_time {
+    float: right;
+    margin-left: 10px;
+    padding: 3px 5px;
+}
+.signal_new_but {
+    background: #05D1FF;
+    color: #0A60A1;
+    border-radius:3px;
+    font-weight: bold;
+}
+.signal_time, .signal_id {
+    color: #23B5D5;
+    font-style: italic;
+}
+.signal_price {
+    clear: both;
+    padding:3px 5px;
+    background: #022D4F;
+    border-radius: 3px;
+    color: #25BEDE;
+}
+.signal_price span {color: #fff;}
+.signal_top {
+    width: 100%;
+    float: left;
+    padding-bottom: 5px;
+}
+.signal_id {
+    float: right;
+    font-style: italic;
+    color: #23B5D5;
+}
+.signal_view i {
+    padding: 0 5px 0 0;
+}
+.green {
+    color: #27AE60;
+}
+.signal_view span {
+    padding: 0 1px;
+    color: #fff;
+}
+.red {color: #DE2626;}
+.plus {color: #F2C94C;}
+
+#second {display: none;}
